@@ -9,6 +9,6 @@ public class UserController {
 
     @GetMapping("/user")
     public String greet(){
-        return "this user";
+        return "user showing controller";
     }
 }
